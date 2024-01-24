@@ -11,11 +11,11 @@
 }
 
 #header{
-    height: 100px;
+    width: 100%;
 }
 
-.infoheader{
-    height: 100%;
+#header article{
+    height: 100px;
     width: 45%;
     float: left;
     margin-left: 3.5%;
@@ -63,28 +63,49 @@
 }
 
 @media(max-width: 768px){
-    .infoheader{
+    #header article{
         width: 97%;
-        height: 70%;
+        height: 70px;
         margin-left: 1.5%;
         margin-bottom: 1.5%;
     }
-    #header2{
-        margin-top: 1.5%;
-    }
 
     #nav{
-        margin-top: 14%;
         margin-left: 1.5%;
         width: 97%;
-        height: 350px;
+        height: 300px;
     }
 
-    #
+    #contenido article{
+        margin-left: 1.5%;
+        width: 97%;
+        height: 90px;
+        margin-top: 1.2%;
+    }
+
+    #infofinal article{
+        width: 47.7%;
+        height: 80px;
+        margin-top: 1%;
+        margin-left: 1.5%;
+    }
 }
 
 @media(max-width: 320px){
 
+    #nav{
+        height: 120px;
+    }
+
+    #contenido article{
+        margin-top: 2.5%;
+        height: 180px;
+    }
+
+    #infofinal article{
+        width: 97%;
+        margin-top: 2.5%;
+    }
 }
 
 
